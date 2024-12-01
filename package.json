@@ -1,0 +1,25 @@
+{
+  "name": "wrangler-manager",
+  "version": "0.1.0",
+  "description": "Manages Cloudflare Wrangler configuration files (wrangler.toml & .dev.vars) using environment variables",
+  "main": "cli.js",
+  "bin": {
+    "wrangler-manager": "./cli.js"
+  },
+  "keywords": [
+    "cloudflare",
+    "wrangler",
+    "hono",
+    "dotenv",
+    "env",
+    "config",
+    "environment",
+    "manager"
+  ],
+  "author": "fengkiej",
+  "license": "MIT",
+  "devDependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
